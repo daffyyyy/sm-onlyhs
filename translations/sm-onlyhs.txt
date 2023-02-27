@@ -1,0 +1,24 @@
+"Phrases"
+{
+	"TAG"
+	{
+		"en"		"{lightred}»  {default}"
+		"pl"		"{lightred}»  {default}"
+	}
+
+	"CMDInfo"   
+	{
+		"en"		"{default}{lightred}HEADSHOT mode!{default} from now on you can kill only with a headshot!"
+		"pl"		"{default}Tryb strzałów {lightred}TYLKO W GŁOWĘ!{default} Od teraz zabijesz strzelając w głowę!"
+	}
+	"Enabled"   
+	{
+		"en"		"{lightgreen}ENABLED"
+		"pl"		"{lightgreen}WŁĄCZONE"
+	}
+	"Disabled"   
+	{
+		"en"		"{lightred}DISABLED"
+		"pl"		"{lightred}WYŁĄCZONE"
+	}
+}
