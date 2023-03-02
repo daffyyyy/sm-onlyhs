@@ -48,7 +48,7 @@ public Action CMD_OnlyHs(int client, int args)
 
 public Action OnTakeDamage(int victim, int &attacker, int &inflictor, float &damage, int &damagetype, int &weapon, float damageForce[3], float damagePosition[3], int damagecustom)
 {
-	if (IsValidEdict(weapon) && IsClientInGame(attacker) && IsClientInGame(victim) && g_iEnabled[attacker] && GetClientTeam(attacker) != GetClientTeam(victim))
+	if (IsValidEdict(weapon) && IsClientInGame(attacker) && IsClientInGame(victim) && g_iEnabled[attacker])
 	{
 		if (damagetype & CS_DMG_HEADSHOT)
 		{
